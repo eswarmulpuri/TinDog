@@ -1,0 +1,14 @@
+#title {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(231, 224, 224);
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
