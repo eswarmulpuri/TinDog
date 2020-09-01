@@ -46,6 +46,10 @@ h2 {
 }
 
 /* Download-button */
+.download-section{
+    height: 500px;
+    position: relative;
+}
 
 .download-button {
     margin: 5% 3% 5% 0;
@@ -56,10 +60,17 @@ h2 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+    z-index: 0;
 }
 
 #features {
-    margin: 5% 15%;
+    margin: 0% 15%;
+    padding: 10% 0 5%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
 }
 
 .app-features {
@@ -110,4 +121,15 @@ h2 {
 .press-logo {
     width: 15%;
     margin: 0 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 10%;
+    text-align: center;
+}
+
+.pricing-plans {
+    margin: 5% 0;
 }
