@@ -133,6 +133,28 @@ h2 {
     margin: 5% 0;
 }
 
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 10%;
+    text-align: center;
+    color: white;
+}
+
+.ending-quote {
+    padding-bottom: 5%;
+}
+
+#footer {
+    text-align: center;
+    padding: 5%;
+    color: #8f8f8f;
+}
+
+.social-media-accounts {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
 @media (max-width: 1000px) {
     .title-image {
         position: static;
