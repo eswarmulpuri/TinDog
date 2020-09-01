@@ -47,7 +47,7 @@ h2 {
 
 /* Download-button */
 .download-section{
-    height: 500px;
+    padding-bottom: 300px;
     position: relative;
 }
 
@@ -62,7 +62,6 @@ h2 {
     transform: rotate(25deg);
     right: 30%;
     position: absolute;
-    z-index: 0;
 }
 
 #features {
@@ -132,4 +131,16 @@ h2 {
 
 .pricing-plans {
     margin: 5% 0;
+}
+
+@media (max-width: 1000px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .download-section {
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }
